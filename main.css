@@ -1,0 +1,151 @@
+body
+{   
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color: black;
+    /*background-image: url("img/background.jpg");*/
+    padding: 0;
+    margin: 10px;
+}
+
+header
+{
+    background: url("img/guitar1.jpg") no-repeat top; /*Photo by Dominik Scythe on Unsplash*/
+    background-size: auto;
+}
+
+nav .topbuttons
+{
+    float: right;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+header h1
+{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 0px
+}
+
+header h2
+{
+    color: white;
+    font-size: 30px;
+}
+
+header .searchartists
+{
+    padding: 10px;
+    margin: 20px 0;
+}
+
+
+section.historylanetext
+{
+    position: relative;
+    background-color: white;
+    width: 80.5%;
+    height: 175px;
+}
+
+section.sidebar
+{
+    position: absolute;
+    right: 0px;
+    top: 313px;
+    bottom: -869px;
+    z-index:1;
+    padding: 0;
+    width: 20%;
+    color: white;
+    background-color: #4CAF50;  
+}
+
+section.sidebar ul
+{
+list-style-type: none;
+}
+
+section.sidebar p
+{
+padding:20%;
+text-align: center;
+}
+
+section.historylane
+{
+position: relative;
+background-color: rgba(73, 80, 74, 0.7);
+top: -17%;
+width: 75.6%;
+left: -1%;
+padding: 2em 2em;
+display: inline-block;
+}
+
+section div.ages
+{
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 3.0em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+   
+section div.ages img.jazzpictures
+{
+    width: 100%;
+}
+
+
+.searchbuttons
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+footer {
+    position: relative;
+    bottom:0;
+    height: 25px;
+    font-size: 1.2em;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul li 
+{
+    display: inline-block;
+    padding: 0 2em 0 0;
+    margin: 0;
+}
+
+.logos
+{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+}
+
